@@ -53,6 +53,7 @@ WebDriver driver;
 	@Test
 	public void VerifyUserLogin() throws IOException {
 		lp.enterEmailID();
+		
 		lp.enterPassword();
 		lp.clickOnLoginBtn();
 		boolean isProfileNameVisible = hp.checkProfileNameVisible();
