@@ -87,10 +87,5 @@ public class Util1 {
 		
 		
 		
-		
-		public static void moveAndClickElement(){
-			
-			
-			
-		}
+
 }
