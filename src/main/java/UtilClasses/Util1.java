@@ -74,10 +74,12 @@ public class Util1 {
 		}
 		
 		
+
 		public static void clickByJE(WebDriver driver, WebElement element) {
 			JavascriptExecutor js = (JavascriptExecutor)driver;
 			js.executeScript("arguments[0].click();", element);
 		}
+
 		
 		
 		
