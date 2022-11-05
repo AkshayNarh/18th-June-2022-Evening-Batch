@@ -44,6 +44,10 @@ static ExtentTest test;
 
 			
 			driver.manage().window().maximize();
+			
+			
+			
+			
 			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		}
 		
