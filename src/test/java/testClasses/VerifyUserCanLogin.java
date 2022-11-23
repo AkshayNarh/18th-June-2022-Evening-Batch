@@ -40,7 +40,6 @@ WebDriver driver;
 		htmlReporter = Base1.getHtmlReporter();
 		reports = Base1.getReports();
 		test = Base1.getExtentTest("VerifyUserCanLogin");
-		
 		driver = Base1.getDriver(browser);
 	}
 	
