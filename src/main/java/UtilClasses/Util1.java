@@ -47,13 +47,9 @@ public class Util1 {
 		
 		public static String getDataFromConfig(String key) throws IOException {
 			FileInputStream file = new FileInputStream("configuration\\config.properties");
-			
 			Properties prop = new Properties();
-			
 			prop.load(file);
-			
 			System.out.println(prop.getProperty(key));
-			
 			return prop.getProperty(key);
 		}
 		
