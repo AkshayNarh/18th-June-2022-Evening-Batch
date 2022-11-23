@@ -79,7 +79,6 @@ WebDriver driver;
 			
 			test.log(Status.FAIL, result.getName() +" is Skipped");
 		}
-		
 	}
 	
 	@AfterClass
